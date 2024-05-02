@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>  
+   
+
+
+      /* Стили для планшетов (ширина экрана от 768px до 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .text-block {
+        width: 240px; /* Ширина блока равная ширине картинки */
+        margin-top: 350px;
+        margin-left: 39px ; /* Отступы сверху и снизу */
+        border-color: white;
+    }
+    
+    .text-block2 {
+        width: 240px; /* Ширина блока равная ширине картинки */
+        margin-top: -215px;
+        margin-left: 330px ; 
+        border-color: white;/* Отступы сверху и снизу */
+    }
+    .text-block3 {
+        width: 240px; /* Ширина блока равная ширине картинки */
+        margin-top: -213px;
+        margin-left: 615px ;
+        border-color: white; /* Отступы сверху и снизу */
+    }
+    .text-block4 {
+        width: 240px; /* Ширина блока равная ширине картинки */
+        margin-top: -213px;
+        margin-left: 900px ;
+        border-color: white; /* Отступы сверху и снизу */
+    }
+        body {
+            text-align: center;
+        }
+
+        .p {
+            margin-top: -9px; 
+            /* Поднимаем текст на 20 пикселей */
+            /* Или можно использовать margin-bottom: -20px; для опускания текста */
+        }
+
+        .header {
+            margin-top: 5px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: hsl(115, 58%, 44%);
+            padding: 2.5px;
+            color: rgb(255, 255, 255);
+        }
+
+        nav a { 
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-family: gabriol, serif;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+        }
+
+        li {
+            margin: 0 10px; /* Добавляет отступы между пунктами меню */
+        }
+        .moved-image5 {
+            width: 250px; 
+            height: 180px;
+            position: absolute;
+            left: 900px; /* Сдвигаем изображение влево */
+            top: 800px; /* Сдвигаем изображение наверх */}
+
+        .moved-image4 {
+            width: 245px; 
+            height: 180px;
+            position: absolute;
+            left: 620px; /* Сдвигаем изображение влево */
+            top: 800px; /* Сдвигаем изображение наверх */
+        }
+        .moved-image3 {
+            width: 250px; 
+            height: 180px;
+            position: absolute;
+            left: 330px; /* Сдвигаем изображение влево */
+            top: 800px; /* Сдвигаем изображение наверх */
+        }
+        .moved-image2 {
+            width: 250px; 
+            height: 180px;
+            position: absolute;
+            left: 40px; /* Сдвигаем изображение влево */
+            top: 800px; /* Сдвигаем изображение наверх */
+        }
+
+        .image {
+            width: 700px; 
+            height: 700px; 
+        }
+H5{ font-size: 25px; /* Изменение размера текста заголовка */
+            margin-top: -420px; /* Поднимаем заголовок на 50 пикселей */
+            margin-left: -1300px; }
+
+        .moved-image {
+            transform: translate(-378px, 20px);
+            width: 700px; 
+            height: 500px; 
+        }
+        .moved-image6 {
+            transform: translate(-130px, 400px);
+            width: 1100px; 
+            height: 280px; 
+        }
+
+        h1 {
+            font-size: 26px; /* Изменение размера текста заголовка */
+            margin-top: -360px; /* Поднимаем заголовок на 50 пикселей */
+            margin-left: 760px; /* Добавляем отступ слева для сдвига текста вправо */
+        }
+            h3 {
+            font-size: 15px; /* Изменение размера текста заголовка */
+            margin-top: 420px; /* Поднимаем заголовок на 50 пикселей */
+            margin-left: -1080px; /* Добавляем отступ слева для сдвига текста вправо */
+        }
+
+       
+
+        p {
+            display: block; 
+            margin-left: 800px;   
+            margin-top: 90px; 
+            font-size: 25px;
+        }
+        p1 {
+            font-size: 15px; /* Изменение размера текста заголовка */
+            margin-top: 420px; /* Поднимаем заголовок на 50 пикселей */
+            margin-left: -1300px; 
+        }
+        p2
+ {
+            font-size: 15px; /* Изменение размера текста заголовка */
+            margin-top: 420px; /* Поднимаем заголовок на 50 пикселей */
+            margin-left: -1300px; 
+        }
+        div {
+            padding: 70px;
+            border: 1px solid rgb(140, 112, 112);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+   
+}
+
+    </style>
+</head>
+
+<body>
+    <img id="img2" src="1234.jpg" width="220" height="90">
+    <nav> 
+        <ul>
+          <li><a href="#1">HOME</a></li>
+          <li><a href="#2">SERVICES</a></li>
+          <li><a href="#3">NEWS</a></li>
+          <li><a href="#4">ABOUT</a></li>
+          <li><a href="#5">CONTACT</a></li>
+          <li><a href="#6">BLOCK</a></li>
+          <li><a href="#7">TYPOGRAPHY</a></li>
+        </ul>
+      </nav>
+  
+      <img src="234.jpg" alt="Your Image" class="moved-image">
+      
+  
+      <h1>MAURIS SODALES PLACERAT MASSA</h1>
+      <p>Suspendisse in dui velit, vel fermentum eros.<br>
+         Nullam blandit ipsum sed sem ullamcorper ac<br>  
+         fermentum urna ullamcorper. Nunc pellentesque<br>  
+         tristique sollicitudin. Vestibulum ante ipsum primis<br>  
+         in faucibus orci luctus et ultrices posuere cubilia<br>  
+         Curae; Aenean eu vehicula risus.</p>
+         
+         <H5>NEWS</H5>
+         
+      <img src="123.jpeg" width="270" height="200" class="moved-image2">
+      <div class="text-block">Vestibulum sed ipsum primis in faucibus orci</div>
+
+
+  
+     
+      <img src="567.jpg" width="270" height="200" class="moved-image3">
+      <div class="text-block2">Vestibulum sed ipsum primis in faucibus orci</div>
+
+
+      <img src="890.jpg" width="270" height="200" class="moved-image4">
+      <div class="text-block3">Vestibulum sed ipsum primis in faucibus orci</div>
+
+
+      <img src="678.jpg" width="270" height="200" class="moved-image5">
+      <div class="text-block4">Vestibulum sed ipsum primis in faucibus orci</div>
+
+
+     
+  
+      
+  </body>
+  
